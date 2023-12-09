@@ -1,0 +1,11 @@
+.dateRangeForm {
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  gap: 1vw;
+}
+.dateRangeInputs {
+  display: flex;
+  justify-content: end;
+  gap: 1vw;
+}

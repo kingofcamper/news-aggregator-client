@@ -1,0 +1,34 @@
+.article {
+  width: 47%;
+  padding: 0 1vw;
+  margin-bottom: 15px;
+}
+.coverImgWrapper {
+  width: 100%;
+  height: 18vw;
+  overflow-y: hidden;
+}
+.coverImg {
+  width: 100%;
+  height: 100%;
+}
+.title {
+  font-size: 1.4vw;
+  color: #222222;
+}
+.description {
+  color: #686868;
+  font-weight: 300;
+}
+.date {
+  color: #848484;
+  font-weight: 300;
+}
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 3vw;
+  }
+  .description {
+    font-size: 2vw;
+  }
+}

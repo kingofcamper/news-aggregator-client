@@ -1,0 +1,12 @@
+.sources {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+@media only screen and (max-width: 768px) {
+  .sources {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
