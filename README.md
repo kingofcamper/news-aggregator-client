@@ -27,4 +27,10 @@ This project is a News Aggregator application that fetches news articles from va
 
 2. **To Visit App:**
 
-   `localhost:3000`
+   ```localhost:3000```
+
+3. **Environment variables:**
+
+   The `.env` file is where you can set the configuration and environment variables for the application. Here are some essential variables you might need to configure:
+
+   `VITE_API_URL`: The backend base url .
