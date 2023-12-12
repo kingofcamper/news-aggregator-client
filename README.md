@@ -1,8 +1,30 @@
-# React + Vite
+# News Aggregator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a News Aggregator application that fetches news articles from various sources and displays them in a single place.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetches news articles from multiple sources.
+- Displays articles with summaries and links to the full content.
+- Allows users to filter news by category or source.
+- Responsive design for mobile and desktop.
+
+## Prerequisites
+
+- [Node.js](https://nodejs.org/) installed on your machine.
+- [Yarn](https://yarnpkg.com/) package manager (optional).
+
+## Getting Started
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/kingofcamper/news-aggregator-client.git
+   cd news-aggregator-client
+   npm install
+   npm run dev
+   ```
+
+2. **To Visit App:**
+
+   `localhost:3000`
