@@ -25,6 +25,7 @@
   display: block;
   text-decoration: none;
   padding: 0 15px;
+  text-transform: uppercase;
 }
 .nav li a:active,
 .nav li a:hover {
@@ -40,6 +41,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 1vw;
 }
 .lowerBar {
   padding: 2vw 6vw;
@@ -83,4 +85,38 @@
 }
 .radio input[type="radio"]:checked:before {
   background: #999;
+}
+.userAuth a {
+  color: #dedede;
+}
+.authDrawer {
+  padding: 2vw;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.authForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+  width: 100%;
+}
+.authForm h3 {
+  text-align: center;
+}
+.authForm label {
+  width: 100%;
+}
+.authForm input[type="text"],
+.authForm input[type="password"] {
+  height: 2vw;
+  width: 100%;
+}
+.authAction {
+  cursor: pointer;
+}
+.authAction a {
+  color: #ba2935;
 }

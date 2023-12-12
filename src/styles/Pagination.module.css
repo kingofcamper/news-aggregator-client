@@ -1,0 +1,52 @@
+.paginationNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 1vw;
+}
+.pageList {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+.current {
+  background-color: antiquewhite;
+}
+.pageList li {
+  margin-left: 5px;
+}
+.page-list li.current a {
+  color: #222;
+  border: 2px solid #ccc;
+}
+.page-list li a.disabled {
+  color: #ccc;
+}
+.page-list li a {
+  display: flex;
+  line-height: 34px;
+  width: 34px;
+  height: 34px;
+  border: 1px solid #dfdfdf;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.link {
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+.active,
+.link:hover {
+  background-color: #00838f;
+  color: #fff;
+}
